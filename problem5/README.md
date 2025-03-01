@@ -26,11 +26,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 ### Installation
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/my-vite-express-sqlite-project.git
-   cd my-vite-express-sqlite-project
-   ```
+1. Clone the repository
 
 2. Install the dependencies:
    ```sh
