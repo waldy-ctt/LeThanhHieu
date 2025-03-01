@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fancy Form</title>
+
+    <!-- You may add more stuff here -->
+    <link href="src/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- You may reorganise the whole HTML, as long as your form achieves the same effect. -->
+    <form onsubmit="confirmSwap()">
+      <h5>Swap</h5>
+      <label for="inputCurrency">Send Currency</label>
+      <select name="inputCurrency" id="inputCurrency">
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+        <option value="YEN">YEN</option>
+        <option value="WON">WON</option>
+      </select>
+
+      <br />
+      <label for="input-amount">Amount to send</label>
+      <input id="input-amount" type="number"/>
+      <br />
+      <br />
+      <label for="outputCurrency">Receive Currency</label>
+      <select name="outputCurrency" id="outputCurrency">
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+        <option value="YEN">YEN</option>
+        <option value="WON">WON</option>
+      </select>
+      <br />
+      <label for="output-amount">Amount to receive</label>
+      <input id="output-amount" readonly />
+
+      <button>CONFIRM SWAP</button>
+    </form>
+    <script src="src/main.js"></script>
+  </body>
+</html>

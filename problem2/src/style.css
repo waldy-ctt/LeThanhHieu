@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 360px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#inputCurrency {
+  min-width: 100px;
+}
+
+#outputCurrency {
+  min-width: 100px;
+}
